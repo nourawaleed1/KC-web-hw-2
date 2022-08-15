@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #262825;
+    box-sizing: border-box;
+    background-color: #000000;
+    }
+    
+    
+    
+    
+    header{
+       width:100%;
+       height: 70px;
+       background-color: #03010f;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    flex-wrap: wrap;
+    z-index: 2;
+    cursor: context-menu;
+    
+       
+    }
+    
+    .right{
+    display: flex;
+    order: 1;
+    
+    
+    
+    }
+    .left{
+       display: flex;
+       align-items: center;
+       order: -1;
+    
+    
+      
+    
+    }
+    .right a{
+       display: flex;
+    margin: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #a1baca;
+    opacity: 0.5;
+    }
+    .right a:hover{
+       color: #ffffff;
+       opacity: 1;
+    
+    }
+    .left h2{
+       display: flex;
+       margin: 10px;
+       color: #a1baca;
+      
+    }
+    *{
+       font-family: 'Silkscreen', cursive 
+    }
+    .search-bar{
+      width: 100%; 
+      max-width: 600px;
+      background:rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      border-radius: 60px;
+      padding:10px 20px ;
+    }
+    .search-bar input{
+       background:transparent ;
+       flex:1 ;
+       border: 0;
+       outline: none;
+      font-size: 20px;
+    
+    
+    }
+     .search-bar button img{ 
+       width:20px ;
+    
+     }
+     .search-bar button{
+       border:0 ;
+       border-radius: 50%;
+       width: 30px;
+       height: 30px;
+       background-color: aqua;
+     }
+     .container{
+      
+      margin: 20px;
+       display: flex;
+       justify-content: center;
+       height: 50vh;
+       flex-wrap: wrap;
+       
+      
+    
+     }
+     .box{
+    
+       width: 200px;
+       background-color: rgba(255, 255, 255, 0.618);
+    margin: 20px;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    padding: 6px;
+    border-radius: 10%;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+     z-index: 1; 
+    cursor:cell;
+     }
+      
+    
+    
+    
+    
+    
+    
+    
+     .v{
+       display: flex;
+       justify-content: center;
+      font-size: 27px;
+      color: aliceblue;
+      
+     }
+     .island{
+      width: 100%;
+      height: 200px;
+      border-radius: 10%;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     }
+     .box p{
+       font-size: 7px;
+     }
+     .batman{
+       width: 100%;
+       height: 200px;
+       border-radius: 10%;
+       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      .man{
+       width: 100%;
+       height: 200px;
+       border-radius: 10%;
+       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+    
+      .john{
+       width: 100%;
+       height: 200px;
+       border-radius: 10%;
+       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      
+    }
+    
+    
+    
+    
+    .jk h2{
+       display: flex;
+       justify-content: center;
+      font-size: 27px;
+      color: aliceblue;
+      
+    
+    }
+    
+    
+    .xx{
+       
+      margin-bottom: 500px;
+       display: flex;
+       justify-content: center;
+       height: 5vh;
+       flex-wrap: wrap;
+       
+     
+       
+    
+    }
+    .sbox{
+       width: 200px;
+       background-color: rgba(255, 255, 255, 0.618);
+    margin: 20px;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    padding: 6px;
+    border-radius: 10%;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+     z-index: 1; 
+    cursor:cell;
+    }
+    .picf{
+    width: 100%;
+       height: 200px;
+       border-radius: 10%;
+       box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    
+       .pics{
+          width: 100%;
+             height: 200px;
+             border-radius: 10%;
+             box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    
+             .picth{
+                width: 100%;
+                   height: 200px;
+                   border-radius: 10%;
+                   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    
+                   .picfr{
+                      width: 100%;
+                         height: 200px;
+                         border-radius: 10%;
+                         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+                         
+                   
+         
+                         .sbox p{
+                            font-size: 7px;
+                         }
+    
+    
+                         .chan h2{
+                            display: flex;
+                            justify-content: center;
+                           font-size: 27px;
+                           color: aliceblue;
+                           
+                         
+                         }
+                         .xo{
+       
+                            margin-bottom: 500px;
+                             display: flex;
+                             justify-content: center;
+                             height: 100vh;
+                             width: 100%;
+                             flex-wrap: wrap;
+                            
+                             
+                           
+                             
+                          
+                          }
+    
+                         .card{
+       width: 200px;
+       background-color:rgba(255, 255, 255, 0.618) ;
+    height: 300px;
+    font-size: 20px;
+    display: flex;
+    padding: 6px;
+    border-radius: 10%;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    cursor:cell;
+    }
+    
+    
+    
+    .card p{
+       font-size: 7px;
+    
+    }
+    
+    .imgf{
+       width: 100%;
+          height: 200px;
+          border-radius: 10%;
+          box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    
+          .imgs{
+             width: 100%;
+                height: 200px;
+                border-radius: 10%;
+                box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+                
+                .imgth{
+                   width: 100%;
+                      height: 200px;
+                      border-radius: 10%;
+                      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+                      
+    
+                      .imgfr{
+                         width: 100%;
+                            height: 200px;
+                            border-radius: 10%;
+                            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+                            
+    
+                            
+    
+    
+    
+                            .fvid{
+                               position: absolute;
+                               right: 0;
+                               bottom: 0;
+                               min-width: 100%;
+                            min-height: 100%;
+                            width: auto;
+                            height: 100%;
+                            z-index: -99;
+                            
+                            }
+    
+    
+    
+    footer{
+       display: flex;
+       justify-content: flex-end;
+       color: #ffffff;
+    }
+    
+    
+    
+    .back-video{
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    z-index: -100;
+    
+    }
+    footer{
+    width:100%;
+    height: 70px;
+    background-color: #03010f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    flex-wrap: wrap;
+    z-index: 2;
+    cursor: context-menu;
+    }
+    .top{
+       position: fixed;
+       bottom: 10px;
+       right: 15px;
+       background: rgb(255, 246, 246);
+       padding: 5px;
+    }
+    .top a{
+       color: #000000;
+       text-decoration: none;
+    }
